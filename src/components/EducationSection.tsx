@@ -5,9 +5,8 @@ export function EducationSection() {
     {
       degree: "Undergraduate in Computer Engineering",
       institution: "Đại học Công nghệ, ĐHQGHN",
-      period: "2014 - 2018",
-      description: "GPA: 3.8/4.0, Magna Cum Laude"
-    }
+      period: "2024-?",
+    },
   ];
 
   return (

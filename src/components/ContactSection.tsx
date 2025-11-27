@@ -11,22 +11,25 @@ export function ContactSection() {
           </div>
           <div>
             <p className="text-sm text-muted-foreground mb-1">Email</p>
-            <a href="mailto:vxdung@example.edu" className="hover:text-primary transition-colors">
-              vxdung@example.edu
+            <a
+              href="mailto:abc09122006@gmail.com"
+              className="hover:text-primary transition-colors"
+            >
+              abc09122006@gmail.com
             </a>
           </div>
         </div>
-        
+
         <div className="flex items-start gap-3">
           <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
             <Phone className="w-5 h-5 text-primary" />
           </div>
           <div>
             <p className="text-sm text-muted-foreground mb-1">Phone</p>
-            <p>+84 123 456 789</p>
+            <p>+84 0967060231</p>
           </div>
         </div>
-        
+
         <div className="flex items-start gap-3">
           <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
             <MapPin className="w-5 h-5 text-primary" />
