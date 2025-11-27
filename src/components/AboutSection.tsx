@@ -6,14 +6,14 @@ export function AboutSection() {
       <h2 className="mb-6">About Me</h2>
       <div className="prose prose-gray max-w-none">
         <p>
-          Tôi là một nhà nghiên cứu chuyên về các lĩnh vực khoa học máy tính và trí tuệ nhân tạo. 
-          Với niềm đam mê học hỏi và khám phá, tôi luôn tìm kiếm những giải pháp sáng tạo cho 
-          các vấn đề phức tạp trong thế giới thực.
+          I am a student currently studying computer engineering. With a passion
+          for learning and discovery, I am always looking for innovative
+          solutions to complex real-world problems.
         </p>
         <p>
-          Nghiên cứu của tôi tập trung vào việc phát triển các hệ thống thông minh có khả năng 
-          học hỏi và thích ứng với môi trường thay đổi. Tôi tin rằng công nghệ có thể tạo ra 
-          những tác động tích cực đến xã hội khi được ứng dụng đúng cách.
+          I am currently researching the topic of Emergent models in clinical
+          neuroscience. I believe that technology can create positive impacts on
+          society when applied properly.
         </p>
       </div>
     </section>
@@ -29,7 +29,7 @@ export function ResearchInterests() {
     "Artificial Intelligence",
     "Data Science",
     "Neural Networks",
-    "Reinforcement Learning"
+    "Reinforcement Learning",
   ];
 
   return (
