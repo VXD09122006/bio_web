@@ -2,29 +2,7 @@ import { ExternalLink } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 
 export function PublicationsSection() {
-  const publications = [
-    {
-      title: "Advanced Methods in Deep Learning for Natural Language Understanding",
-      authors: "Vương Xuân Dũng, Nguyễn Văn A, Trần Thị B",
-      venue: "International Conference on Machine Learning (ICML)",
-      year: "2024",
-      link: "#"
-    },
-    {
-      title: "Efficient Neural Architecture Search for Computer Vision Tasks",
-      authors: "Vương Xuân Dũng, Lê Văn C",
-      venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
-      year: "2023",
-      link: "#"
-    },
-    {
-      title: "Transfer Learning Approaches for Low-Resource Languages",
-      authors: "Vương Xuân Dũng, Phạm Thị D, Hoàng Văn E",
-      venue: "Association for Computational Linguistics (ACL)",
-      year: "2023",
-      link: "#"
-    }
-  ];
+  const publications = [];
 
   return (
     <section className="max-w-5xl mx-auto px-6 py-12 border-t">

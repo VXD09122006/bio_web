@@ -1,26 +1,7 @@
 import { Briefcase, Calendar } from "lucide-react";
 
 export function ExperienceSection() {
-  const experience = [
-    {
-      position: "Research Assistant",
-      organization: "AI Research Lab, Đại học Quốc gia Hà Nội",
-      period: "2021 - Hiện tại",
-      description: "Conducting research on deep learning and natural language processing. Leading projects on neural machine translation and text generation."
-    },
-    {
-      position: "Machine Learning Engineer",
-      organization: "VinAI Research",
-      period: "2020 - 2021",
-      description: "Developed and deployed machine learning models for production systems. Worked on computer vision and NLP applications."
-    },
-    {
-      position: "Research Intern",
-      organization: "FPT AI Center",
-      period: "2019 - 2020",
-      description: "Collaborated on research projects in deep learning. Contributed to papers on image recognition and object detection."
-    }
-  ];
+  const experience = [];
 
   return (
     <section className="max-w-5xl mx-auto px-6 py-12 border-t">
